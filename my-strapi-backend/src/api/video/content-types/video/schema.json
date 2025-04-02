@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "videos",
+  "info": {
+    "singularName": "video",
+    "pluralName": "videos",
+    "displayName": "Videos"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Category": {
+      "type": "enumeration",
+      "enum": [
+        "Entertainment",
+        "Ad creations",
+        "Highlights",
+        "Informative Insights",
+        "Motion Graphics",
+        "Short films",
+        "podcasts",
+        "promotional videos"
+      ]
+    },
+    "Orientation": {
+      "type": "enumeration",
+      "enum": [
+        "Horizontal",
+        "Vertical"
+      ]
+    },
+    "video_url": {
+      "type": "string"
+    }
+  }
+}
