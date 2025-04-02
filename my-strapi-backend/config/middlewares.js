@@ -6,9 +6,8 @@ module.exports = [
     name: "strapi::cors",
     config: {
       origin: [
-        "http://localhost:3000", 
-        "https://your-frontend.onrender.com", 
-        "https://your-custom-domain.com", 
+        "http://localhost:3000",
+        "https://wassim-portfolio-kappa.vercel.app",
       ],
       methods: ["GET", "POST", "PUT", "DELETE", "HEAD", "OPTIONS"],
       headers: ["Content-Type", "Authorization", "Origin", "Accept"],
