@@ -14,7 +14,9 @@ export default function Edit() {
   useEffect(() => {
     const fetchVideos = async () => {
       try {
-        const res = await fetch("http://localhost:1337/api/videos");
+        const res = await fetch(
+          "https://wassim-portfolio.onrender.com/api/videos"
+        );
         const data = await res.json();
 
         if (data.data) {
