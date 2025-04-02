@@ -20,8 +20,8 @@ export default function About() {
         <div className="text-[#FFE5F1]text-xl text-center leading-[1.5]">
           <Fade cascade={true} damping={0.2} triggerOnce={true}>
             <span className="block">
-              Hi, I'm Mohamed Wassim, a {age}-year-old video editor based in
-              meftah in
+              Hi, I&apos;m Mohamed Wassim, a {age}-year-old video editor based
+              in meftah in
             </span>
             <span className="block">
               Algeria, with five years of experience. I specialize in Premiere
@@ -31,7 +31,7 @@ export default function About() {
             </span>
             <span className="block">Photoshop to perfect my work.</span>
             <span className="block">
-              I'm always seeking new ways to tell stories thatcaptivate and
+              I&apos;m always seeking new ways to tell stories thatcaptivate and
               inspire.
             </span>
           </Fade>

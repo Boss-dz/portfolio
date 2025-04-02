@@ -46,7 +46,7 @@ export default function HeroSection() {
         <Fade direction="up" cascade={true} damping={0.3} triggerOnce={true}>
           <Link href="#contact">
             <button className="mt-6 px-6 py-3 bg-amber-700 hover:bg-amber-900 rounded-lg text-white font-semibold cursor-pointer transition-all duration-600 ease-in-out">
-              LET'S TALK
+              LET&apos;S TALK
             </button>
           </Link>
         </Fade>
