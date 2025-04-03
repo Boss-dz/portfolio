@@ -61,7 +61,7 @@ module.exports = createCoreController("api::message.message", ({ strapi }) => ({
       return newMessage;
     } catch (err) {
       console.error("Error sending email:", err);
-      ctx.throw(500, "Failed to send message");
+      ctx.throw(500, "Failed to send message with nodemailer");
     }
   },
 }));

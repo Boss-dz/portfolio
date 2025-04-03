@@ -1,4 +1,3 @@
-
 "use client";
 import { useState } from "react";
 import { Fade } from "react-awesome-reveal";
@@ -37,9 +36,10 @@ export default function Contact() {
           body: JSON.stringify({ data: formData }),
         }
       );
-      console.log(response)
+      console.log(response);
 
       const result = await response.json(); // Get API response
+      console.log(result);
 
       if (response.ok) {
         setSuccess("Message sent successfully!");
