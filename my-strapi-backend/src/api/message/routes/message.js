@@ -1,9 +1,25 @@
-'use strict';
+// 'use strict';
 
-/**
- * message router
- */
+// /**
+//  * message router
+//  */
 
-const { createCoreRouter } = require('@strapi/strapi').factories;
+// const { createCoreRouter } = require('@strapi/strapi').factories;
 
-module.exports = createCoreRouter('api::message.message');
+// module.exports = createCoreRouter('api::message.message');
+
+"use strict";
+
+module.exports = {
+  routes: [
+    {
+      method: "POST",
+      path: "/messages",
+      handler: "message.create",
+      config: {
+        auth: false, 
+        policies: [],
+      },
+    },
+  ],
+};
