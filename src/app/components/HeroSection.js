@@ -8,7 +8,7 @@ const age = year - 2004;
 
 export default function HeroSection() {
   return (
-    <div className="flex flex-col md:flex-row items-center justify-center h-screen px-6 text-white font-mono max-md:mt-24 max-sm:mt-28">
+    <div className="flex flex-col md:flex-row items-center justify-center h-screen px-6 text-white font-mono max-md:mt-24 max-sm:mt-30">
       {/* Left Content */}
       <div className="relative z-10 flex flex-col items-center md:items-start text-center md:text-left md:w-1/2">
         <Fade direction="down" triggerOnce={true}>
