@@ -60,7 +60,7 @@ export default function Contact() {
       {/* Section Title */}
       <div className="mb-8 w-fit">
         <Fade direction="left" triggerOnce={true}>
-          <h1 className="uppercase relative text-3xl font-bold pb-2 max-sm:text-2xl lg:text-5xl">
+          <h1 className="uppercase relative text-3xl font-bold pb-2 max-sm:text-lg 2xl:text-5xl">
             I am ready to work with you
             <span className="absolute left-0 bottom-0 w-full h-[3px] bg-gradient-to-r from-amber-500 via-orange-400 via-red-400 to-rose-500"></span>
           </h1>

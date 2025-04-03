@@ -7,7 +7,7 @@ export default function Testimonials() {
       {/* Title */}
       <div className="mb-8 w-fit text-center">
         <Fade direction="left" triggerOnce={true}>
-          <h1 className="uppercase relative text-5xl md:text-5xl font-bold pb-2">
+          <h1 className="uppercase relative text-3xl 2xl:text-5xl font-bold pb-2 max-sm:text-2xl">
             Testimonials
             <span className="absolute left-0 bottom-0 w-full h-[3px] bg-gradient-to-r from-amber-500 via-orange-400 via-red-400 to-rose-500"></span>
           </h1>

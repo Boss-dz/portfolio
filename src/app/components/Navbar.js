@@ -9,15 +9,15 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="fixed text-white top-0 left-0 w-full  bg-[#7226FF]/30 backdrop-blur-md shadow-md z-50 font-mono text-xl uppercase">
+    <nav className="fixed text-white top-0 left-0 w-full  bg-[#7226FF]/30 backdrop-blur-md shadow-md z-50 font-mono text-lg uppercase">
       <div className="flex justify-between items-center px-6 md:px-12 py-4">
         {/* Logo */}
-        <Link href="#hero" className="font-bold text-2xl hover:text-[#f9c7fe]">
+        <Link href="#hero" className="font-bold text-xl 2xl:text-2xl hover:text-[#f9c7fe]">
           Home
         </Link>
 
         {/* Desktop Menu */}
-        <div className="hidden md:flex space-x-6 text-xl uppercase">
+        <div className="hidden md:flex space-x-6 text-lg 2xl:text-xl uppercase">
           <Fade cascade={true} damping={0.3} triggerOnce={true}>
             <Link href="#about" className="hover:text-[#f9c7fe]">
               About

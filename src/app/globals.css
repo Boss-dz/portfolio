@@ -10,7 +10,8 @@ html {
 }
 
 ::-webkit-scrollbar-track {
-  background: linear-gradient(to bottom, #75029b, #430b6a); 
+  /* background: linear-gradient(to bottom, #75029b, #430b6a);  */
+  background: #87F5F5; 
   border-radius: 10px;
 }
 

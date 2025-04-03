@@ -26,7 +26,6 @@ export default function Edit() {
             orientation: item.Orientation,
           }));
 
-
           // Function to group videos by category
           const groupByCategory = (videosArray) => {
             const grouped = {};
@@ -47,7 +46,6 @@ export default function Edit() {
           setVerticalVideos(
             groupByCategory(videos.filter((v) => v.orientation === "Vertical"))
           );
-
         }
       } catch (error) {
         console.error("Error fetching videos:", error);
@@ -62,7 +60,7 @@ export default function Edit() {
       {/* Main Title */}
       <div className="mb-8 ml-6 w-fit">
         <Fade direction="left" triggerOnce={true}>
-          <h1 className="uppercase relative text-5xl font-bold pb-2">
+          <h1 className="uppercase relative text-3xl 2xl:text-5xl font-bold pb-2 max-sm:text-3xl">
             My Best Edits
             <span className="absolute left-0 bottom-0 w-full h-[3px] bg-gradient-to-r from-amber-500 via-orange-400 via-red-400 to-rose-500"></span>
           </h1>
@@ -83,7 +81,7 @@ function VideoSection({ title, videos }) {
     <div className="mb-12">
       <div className="mb-6 ml-6 w-fit">
         <Fade direction="left" triggerOnce={true} delay={200}>
-          <h2 className="uppercase relative text-3xl font-bold pb-2 text-[#87F5F5]">
+          <h2 className="uppercase relative text-2xl 2xl:text-3xl font-bold pb-2 text-[#87F5F5] max-sm:text-2xl">
             {title}
             <span className="absolute left-0 bottom-0 w-full h-[3px] bg-gradient-to-r from-[#FFE5F1] via-[#F042FF] via-[#7226FF]"></span>
           </h2>
@@ -93,7 +91,7 @@ function VideoSection({ title, videos }) {
       <div className="flex space-x-8 overflow-x-auto">
         {videos.map((section) => (
           <div key={section.name} className="w-[400px]">
-            <h2 className="text-2xl font-semibold mb-4 text-center uppercase">
+            <h2 className="text-xl 2xl:text-2xl font-semibold mb-4 text-center uppercase">
               {section.name}
             </h2>
             <Swiper
