@@ -46,7 +46,7 @@ module.exports = createCoreController("api::message.message", ({ strapi }) => ({
           pass: process.env.EMAIL_PASS,
         },
       });
-      console.log(transporter);
+      console.log(`mail_option:${transporter}`);
 
       // Email Options
       const mailOptions = {
@@ -56,7 +56,7 @@ module.exports = createCoreController("api::message.message", ({ strapi }) => ({
         subject: "New Contact Message",
         text: `Name: ${first_name} ${last_name}\nEmail: ${email}\nMessage: ${message}`,
       };
-      console.log(mailOptions)
+      console.log(`mail_option:${mailOptions}`);
 
       // Send Email
       await transporter.sendMail(mailOptions);
