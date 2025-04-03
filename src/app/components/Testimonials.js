@@ -31,7 +31,7 @@ export default function Testimonials() {
           />
           <Card
             name="Abderrahmane boukhadra"
-            job="Ceo chellalet electronique"
+            job="Ceo Chellalet Electronique"
             description="وسيم أظهر مهارة استثنائية في تحرير الفيديو. كان عمله دقيقاً وإبداعياً، مما جعل كل مشروع يتألق"
             picture="/pic3.jpeg"
           />
