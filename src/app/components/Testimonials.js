@@ -18,7 +18,7 @@ export default function Testimonials() {
       <div className="flex flex-wrap justify-center gap-6 md:gap-8  w-full ">
         <Fade direction="left" cascade={true} damping={0.2} triggerOnce={true}>
           <Card
-            name="Riad"
+            name="Riad as"
             job="Entrepreneur "
             description="Wassim’s work was fantastic. He’s creative, detail-oriented, and delivered exactly what I needed. Highly recommended!"
             picture="/pic2.jpeg"

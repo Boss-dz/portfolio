@@ -19,7 +19,7 @@ export default function Card({ name, job, description, picture }) {
 
       {/* Text Content with Consistent Spacing */}
       <div className="flex flex-col items-center text-center flex-grow w-full">
-        <h1 className="text-amber-700 text-2xl font-bold">{name}</h1>
+        <h1 className="text-amber-700 text-2xl font-bold uppercase">{name}</h1>
         <h3 className="text-black text-xl font-bold mb-2">{job}</h3>
         <p className="text-gray-600 flex-grow flex items-center">
           {description}

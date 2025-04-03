@@ -37,6 +37,7 @@ export default function Contact() {
           body: JSON.stringify({ data: formData }),
         }
       );
+      console.log(response)
 
       const result = await response.json(); // Get API response
 
